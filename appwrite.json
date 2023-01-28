@@ -1,0 +1,21 @@
+{
+    "projectId": "63d4fa6ae7105c8f0e08",
+    "projectName": "metric-tracker",
+    "functions": [
+        {
+            "$id": "63d546edf3a6c488096a",
+            "name": "metric-stripe-function",
+            "runtime": "node-18.0",
+            "path": "functions/metric-stripe-function",
+            "entrypoint": "src/index.js",
+            "ignore": [
+                "node_modules",
+                ".npm"
+            ],
+            "execute": [],
+            "events": [],
+            "schedule": "",
+            "timeout": 15
+        }
+    ]
+}
